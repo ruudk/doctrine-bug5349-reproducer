@@ -1,0 +1,20 @@
+{
+    "name": "ruudk/doctrine-bug",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruud Kamphuis",
+            "email": "ruudk@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.11",
+        "doctrine/cache": "^2.1",
+        "symfony/cache": "^6.0"
+    }
+}
